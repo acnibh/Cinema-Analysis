@@ -12,13 +12,13 @@ In the Film table, the majority of movie data is not present in the Ticket table
 
 
 ## Data Cleansing
-### Film Table 
+### 1. Film Table 
 - Updating movie information in the Film table by referencing external data (IMDb) to provide comprehensive movie details and enhance synchronization and linkage with the Ticket table.
 - Updating age ratings in the Film table by referencing IMDb and the Ticket table to ensure compliance with Vietnamese Cinema regulations.
 - Crawling data for movies screened in 2019 from IMDb as the source and utilizing The Movie Database API to retrieve additional supplementary information.
  
 
-### Ticket Table 
+### 2. Ticket Table 
 - Format the data type of the columns
 - Adding columns film_id, film_en, and rating to display information and establish correct links with the movies in the Film table.
  
@@ -75,9 +75,21 @@ FORMAT (SUM ( DomesticFilmPurchaseTransactions) OVER ( Partition BY ReturnFreque
 FROM table3
 ```
 ### 3. Cinema Hall
-![image](https://github.com/acnibh/Customer-Behavior-Analysis---Cinema/assets/146699917/90aa0504-afd7-469a-b36f-4424b2336de5)
+![image](https://github.com/acnibh/Customer-Behavior-Analysis---Cinema/assets/146699917/95d3bb85-6240-451c-a6f4-76a8342670df)
 
+## Insights
+#### 1. Customers
+- The number of customers going to the movies on Saturdays and Sundays is higher than on weekdays.
+- During the week, customers typically choose to visit the cinema during two main time slots: From 3:00 PM to 3:30 PM and 7:00 PM to 9:00 PM.
+- On the contrary, during the weekend, customers opt for a more varied range of time slots to visit the cinema and revenue during the weekend is 62% higher than on weekdays.
+#### 2. Domestic and Foreign Films
+- The number of Vietnamese films accounts for nearly 1/3 of the total, but only attracts 7.52% of the audience.
+- Customers with multiple movie views within a month tend to have a higher preference for foreign films over domestic ones.
+#### 3. Cinema Hall
+- Foreign films are prioritized for screening in Halls 1 and 4 to meet customer demand adequately.
+- During peak hours, 100% of foreign films are prioritized for screenings.
 
+## Recommendations
 
 
 
