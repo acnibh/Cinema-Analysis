@@ -1,5 +1,9 @@
 # Cinema Analysis
 This project and the data used were a part of the business case in '[Data Got Talent 2023](https://datagottalent.vn/)' Competition. It focuses on examining patterns, trends, and factors influencing customer spending to gain insights into their preferences, and purchasing habits when customers go to the cinema. Suggesting solutions to increase cinema revenue.
+### Tools
+- Excel - Data Cleaning
+- SQL Server - Collect Data
+- PowerBI - Creating reports
 ## Background
 The film distribution business has provided a detailed dataset on operations, revenue, and customer attendance for each movie screening in May 2019. This dataset includes three tables providing information such as customer ID, screening date and time, movie title, number of tickets sold, etc. From this data, the business needs to understand issues and market demands to develop an appropriate operational plan, thereby enhancing overall efficiency.
 - Raw dataset: The business has provided a dataset consisting of 3 tables
