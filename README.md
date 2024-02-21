@@ -1,5 +1,5 @@
 # Cinema Analysis
-This project and the data used were a part of the business case in '[Data Got Talent 2023](https://datagottalent.vn/)' Competition. It focuses on examining patterns, trends, and factors influencing customer spending to gain insights into their preferences, and purchasing habits when customers go to the cinema. Suggesting solutions to increase cinema revenue.
+This project and the data used were a part of the business case in '[Data Got Talent 2023](https://datagottalent.vn/)' Competition. From this data, the business needs to understand the challenges and market demands to develop an appropriate operational plan, thereby improving operational efficiency.
 ### Tools
 - Excel - Data Cleaning
 - SQL Server - Collect Data
