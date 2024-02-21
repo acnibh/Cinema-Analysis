@@ -1,5 +1,5 @@
 # Customer-Behavior-Analysis---Cinema
-This project and the data used was a part of business case in '[Data Got Talent 2023](https://datagottalent.vn/)' Competition. It focuses on examining patterns, trends, and factors influencing customer spending in order to gain insights into their preferences, purchasing habits when customers go to the cinema. Suggesting solutions to increase cinema revenue.
+This project and the data used were a part of the business case in '[Data Got Talent 2023](https://datagottalent.vn/)' Competition. It focuses on examining patterns, trends, and factors influencing customer spending to gain insights into their preferences, and purchasing habits when customers go to the cinema. Suggesting solutions to increase cinema revenue.
 ## Background
 The film distribution business has provided a detailed dataset on operations, revenue, and customer attendance for each movie screening in May 2019. This dataset includes three tables providing information such as customer ID, screening date and time, movie title, number of tickets sold, etc. From this data, the business needs to understand issues and market demands to develop an appropriate operational plan, thereby enhancing overall efficiency.
 - Raw dataset: The business has provided a dataset consisting of 3 tables
@@ -80,7 +80,7 @@ FROM table3
 ## Insights
 #### 1. Customers
 - The number of customers going to the movies on Saturdays and Sundays is higher than on weekdays.
-- During the week, customers typically choose to visit the cinema during two main time slots: From 3:00 PM to 3:30 PM and 7:00 PM to 9:00 PM.
+- During the week, customers typically choose to visit the cinema during two main time slots: From 3:00 PM to 3:30 PM and from 7:00 PM to 9:00 PM.
 - On the contrary, during the weekend, customers opt for a more varied range of time slots to visit the cinema and revenue during the weekend is 62% higher than on weekdays.
 #### 2. Domestic and Foreign Films
 - The number of Vietnamese films accounts for nearly 1/3 of the total, but only attracts 7.52% of the audience.
@@ -90,6 +90,7 @@ FROM table3
 - During peak hours, 100% of foreign films are prioritized for screenings.
 
 ## Recommendations
-
-
+- Implementing discounted ticket prices during non-peak hours (before 7:00 PM on weekdays) to increase revenue by attracting additional customers during non-peak hours.
+- Implementing a promotion program for popcorn and drinks, targeting customers purchasing double-seat tickets to increase revenue by promoting additional purchases of accompanying products among potential customer groups.
+- Adjusting the number of screenings for domestic films, and increasing the number of screenings for foreign films to meet customer preferences to attract more customers and enhance loyalty.
 
