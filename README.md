@@ -1,4 +1,4 @@
-# Cinema Analysis
+# Movie Theater Sales Analysis
 This project and the data used were a part of the business case in '[Data Got Talent 2023](https://datagottalent.vn/)' Competition. From this data, the business needs to understand the challenges and market demands to develop an appropriate operational plan, thereby improving operational efficiency.
 ### Tools
 - Excel - Data Cleaning
